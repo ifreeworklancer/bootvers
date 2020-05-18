@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('.slider_features').bxSlider({
+        speed:600,
+        auto:true,
+        mode:"fade",
+        controls:false,
+        pause:3000,
+        pager:false
+    });
+});
